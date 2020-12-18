@@ -1,0 +1,460 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+body {
+    height: 100%;
+    background-color: black;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Tw Cen MT", Helvetica, sans-serif;
+    font-size: 20px;
+	font-weight: lighter;
+}
+* {
+    box-sizing: border-box;
+}
+
+.clr {
+	clear: both;
+}
+.topnav {
+	background-color: black;
+	height: 200px;
+	width: 100%;
+}
+h1.title {
+    font-family: 'Old English Text MT';
+    color: white;
+    font-size: 10vw;
+    text-align: center;
+    margin-bottom: 0;
+    background-color: black;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.nav {
+	background-color: black;
+	padding-top: 50px;
+}
+.alpha {
+    color: goldenrod;
+}
+.img1 {
+	height: 100px;
+	width: 100px;
+}
+.img2 {
+	height: 400px;
+	width: 90%;
+	display: block;
+	margin: auto;
+}
+.block1 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	padding-top: 140px;
+}
+.center {
+	position: absolute;
+}
+.center button {
+	background-color: #1a1a1a;
+	color: goldenrod;
+	padding: 15px;
+	border: none;
+	width: 150px;
+	font-size: 25px;
+	font-family: "Agency FB"
+}
+.shop {
+	display: flex;
+	justify-content: center;
+}
+.shop button {
+	background-color: transparent;
+	color: goldenrod;
+	padding: 20px;
+	width: 180px;
+	border: 2px solid white;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: "Tw Cen MT", Helvetica, sans-serif;
+	font-size: 20px;
+	letter-spacing: .1em;
+	margin-top: 20px;
+}
+.articles {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+	padding: 10px;
+	margin-top: 100px;
+	margin-left: 10px;
+}
+.articles img {
+	height: 130px;
+	width: 180px;
+}
+.artbtn {
+	display: flex;
+	justify-content: flex-end;
+}
+.artbtn button {
+	background-color: transparent;
+	color: goldenrod;
+	padding: 20px;
+	width: 250px;
+	margin-right: 20px;
+	border: 2px solid white;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: "Tw Cen MT", Helvetica, sans-serif;
+	font-size: 20px;
+	letter-spacing: .1em;
+}
+a {
+	text-decoration: none;
+	color: goldenrod;
+}
+p {
+	color: goldenrod;
+}
+h3 {
+	font-weight: lighter;
+}
+.img3 {
+	width: 80%;
+}
+.podbtn {
+	display: flex;
+	justify-content: center;
+}
+.podbtn button {
+	background-color: transparent;
+	color: goldenrod;
+	padding: 20px;
+	width: 300px;
+	border: 2px solid white;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	font-family: "Tw Cen MT", Helvetica, sans-serif;
+	font-size: 20px;
+	letter-spacing: .1em;
+}
+.videobtn {
+	display: flex;
+	justify-content: flex-end;
+}
+.videobtn button {
+	background-color: transparent;
+	color: goldenrod;
+	padding: 20px;
+	width: 250px;
+	margin-right: 20px;
+	border: 2px solid white;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: "Tw Cen MT", Helvetica, sans-serif;
+	font-size: 20px;
+	letter-spacing: .1em;
+}
+.exclusive {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.exclusive img {
+	height: 150px;
+	width: 200px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+.exclusivebtn {
+	display: flex;
+	justify-content: flex-end;
+}
+.exclusive a p {
+		font-size: 25px;
+	}
+.exclusivebtn button {
+	background-color: transparent;
+	color: goldenrod;
+	padding: 20px;
+	width: 300px;
+	border: 2px solid white;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	cursor: pointer;
+	font-family: "Tw Cen MT", Helvetica, sans-serif;
+	font-size: 20px;
+	letter-spacing: .1em;
+}
+.project {
+	background-color: #1a1a1a;
+	color: white;
+	height: 300px;
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding-top: 5%;
+}
+.join {
+}
+.joinbtn button {
+	text-align: center;
+	background-color: transparent;
+	color: goldenrod;
+	padding: 20px;
+	width: 150px;
+	border: 2px solid white;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: "Tw Cen MT", Helvetica, sans-serif;
+	font-size: 20px;
+}
+h5 {
+	color: white;
+}
+.floaters {
+	margin-left: 20px;
+}
+.float {
+	float: left;
+    width: 50%;
+    
+}
+img.block10 {
+	height: 150px;
+	width: 180px;
+	padding: 0 15px 10px 0;
+}
+img.block20 {
+	height: 150px;
+	width: 180px;
+	padding: 0 15px 10px 0;
+}
+.block10 {
+    float: left;
+    width: 50%;
+
+}
+.block20 {
+    float: left;
+    width: 50%;
+}
+.block10 span {
+	font-size: 20px;
+}
+.block20 span {
+	font-size: 20px;
+}
+.recent {
+	padding: 10px;
+}
+footer {
+	background-color: #1a1a1a;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+footer a {
+	padding: 10px;
+	font-size: 16px;
+	letter-spacing: .1em;
+	display: inline-flex;
+	flex-wrap: nowrap;
+}
+.foot a:hover {
+	opacity: 0.5;
+}
+#instagram {
+	color: tomato;
+	font-size: 24px;
+}
+#facebook {
+	font-size: 24px;
+}
+.bars {
+	font-size: 30px;
+	width: 10px;
+	color: white;
+	display: none;
+}
+iframe {
+	margin-top: 100px;
+	margin-bottom: 30px;
+	height: 500px;
+	width: 100%;
+	border: none;
+	margin-left: 10px;
+}
+.single {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;
+	padding: 10px;
+	padding-bottom: 10px;
+	margin-top: 50px;
+	text-align: center;
+}
+.grid-container img {
+	height: 200px;
+	width: 200px;
+}
+.paragraphs {
+	margin: 0 30px;
+	padding-top: 10%;
+}
+.blog-content img {
+	height: 200px;
+	width: 200px;
+}
+`
+main .blog .blog-post {
+    
+}
+
+main .blog-post .blog-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 80%;
+    margin: 20px;
+    padding-top: 100px;
+}
+
+main .blog-content .blog-title {
+	color: goldenrod;
+    padding-top: 10px;
+}
+
+section .block .owl-nav {
+    display: flex!important;
+    justify-content: flex-end!important;
+    position: absolute!important;
+    right: 10px;
+    top: 0;
+}
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next {
+    background: black!important;
+    font-size: 40px!important;
+    color: goldenrod!important;
+    
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: black!important;
+    color: goldenrod!important;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    outline: none;
+}
+@media only screen and (max-width: 630px) {
+	.articles img {
+		height: auto;
+		width: 100%;
+		margin-left: 0;
+	}
+	.article {
+		padding-bottom: 40px;
+	}
+	.articles {
+		display: grid;
+		grid-template-columns: auto;
+	}
+	.exclusive {
+		display: grid;
+		grid-template-columns: auto;
+	}
+	.exclusive img {
+		height: auto;
+		width: 100%;
+	}
+	.img2 {
+		height: auto;
+		padding-top: 0;
+	}
+	.float {
+		float: none;
+		margin-bottom: 50px;
+		width: 100%;
+	}
+	img.block20 {
+		width: 100%;
+		height: 300px;
+	}
+	img.block10 {
+		width: 100%;
+		height: 300px;
+	}
+	.recent span {
+		width: 100%;
+		font-size: 20px;
+	}
+	.block10 {
+		float: none;
+		width: 100%;
+	}
+	.block20 {
+		float: none;
+		width: 100%;
+	}
+	.exclusivebtn {
+	display: flex;
+	justify-content: center;
+	}
+}
+@media only screen and (max-width: 430px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto;
+	}
+
+}
+@media only screen and (max-width: 868px) {
+	.grid-container {
+		display: block;
+	}
+
+}
+@media only screen and (min-width: 1065px) {
+	.container {
+		margin-right: auto;
+		margin-left: auto;
+		width: 80%;
+	}
+	#conf {
+		padding-right: 50px;
+	}
+	.articles img {
+		height: 250px;
+		width: 320px;
+	}
+	.img2 {
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+		height: auto;
+		margin-bottom: 40px;
+	} 
+}
